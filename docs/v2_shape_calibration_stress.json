@@ -1,0 +1,42 @@
+[
+  {
+    "shape_feature_gain": 1.0,
+    "raw_threshold_f1": 0.8793456032719836,
+    "uncertainty_gate_f1": 0.9180327868852459,
+    "causal_residual_f1": 0.9937369519832986,
+    "causal_residual_accuracy": 0.99375,
+    "winner": "causal_residual"
+  },
+  {
+    "shape_feature_gain": 0.8,
+    "raw_threshold_f1": 0.8793456032719836,
+    "uncertainty_gate_f1": 0.9180327868852459,
+    "causal_residual_f1": 0.9567099567099568,
+    "causal_residual_accuracy": 0.9583333333333334,
+    "winner": "causal_residual"
+  },
+  {
+    "shape_feature_gain": 0.7,
+    "raw_threshold_f1": 0.8793456032719836,
+    "uncertainty_gate_f1": 0.9180327868852459,
+    "causal_residual_f1": 0.8914549653579676,
+    "causal_residual_accuracy": 0.9020833333333333,
+    "winner": "uncertainty_gate"
+  },
+  {
+    "shape_feature_gain": 0.6,
+    "raw_threshold_f1": 0.8793456032719836,
+    "uncertainty_gate_f1": 0.9180327868852459,
+    "causal_residual_f1": 0.8118811881188119,
+    "causal_residual_accuracy": 0.8416666666666667,
+    "winner": "uncertainty_gate"
+  },
+  {
+    "shape_feature_gain": 0.5,
+    "raw_threshold_f1": 0.8793456032719836,
+    "uncertainty_gate_f1": 0.9180327868852459,
+    "causal_residual_f1": 0.6666666666666666,
+    "causal_residual_accuracy": 0.75,
+    "winner": "uncertainty_gate"
+  }
+]
