@@ -1,7 +1,15 @@
 # Novelty Decision
 
-Chosen direction: causal tactile residuals for disambiguating internal dynamics error from unexpected external contact.
+Decision after v2 hardening: workshop-only.
 
-Why this is the strongest candidate: it changes the role of touch from sensing state to explaining error source, which is a different central mechanism.
+Best thesis: causal tactile residuals can be a controller-facing diagnostic interface for separating internal dynamics mismatch from unexpected external contact, provided residual-shape features are calibrated.
 
-Rejected weaker directions: larger model, more data, generic uncertainty, generic active learning, or a generic tactile policy stack.
+Boundary:
+
+- Not a new tactile sensor.
+- Not a learned tactile policy.
+- Not a proof of causality.
+- Not hardware-robust contact diagnosis.
+- Not reliable under severe residual-shape feature attenuation.
+
+The v2 stress keeps the mechanism interesting but makes calibration the central open requirement.
