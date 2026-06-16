@@ -2,18 +2,20 @@
 
 ## Attack 1: Raw residual thresholding may be enough.
 
-Result: Partially rejected. Raw thresholding reaches 0.879 F1, while clean causal residuals reach 0.994 F1.
+Result: Rejected in the full-scale suite. Raw energy reaches 0.597 F1 and 0.491 utility; calibrated causal tactile residuals reach 0.738 F1 and 0.621 utility.
 
-Decision impact: The clean mechanism is useful but not enough for a strong venue.
+## Attack 2: Uncertainty gating may be enough.
 
-## Attack 2: Uncertainty gating may be enough under calibration shift.
+Result: Rejected in the full-scale suite. The uncertainty gate reaches 0.550 F1 and 0.451 utility.
 
-Result: Sustained. At 0.7 shape-feature gain, causal residual F1 falls to 0.891 while the uncertainty gate remains at 0.918.
+## Attack 3: Shape-only diagnosis may be enough.
 
-Decision impact: The paper must claim calibrated residual-shape diagnosis, not generic robustness.
+Result: Rejected. Residual-shape-only diagnosis reaches 0.576 F1 and misses too many external contacts.
 
-## Attack 3: The result assumes labeled cause and contact graph structure.
+## Attack 4: Calibration is the real dependency.
 
-Result: Sustained. The synthetic benchmark does not prove causal identification or feature extraction in hardware.
+Result: Sustained as a boundary. The final paper treats calibration metadata as part of the residual interface and reports performance under seven calibration regimes.
 
-Decision impact: workshop-only.
+## Attack 5: The result assumes contact graph structure.
+
+Result: Sustained as scope. The method targets contact-structured controllers or learned systems that expose an active contact hypothesis.

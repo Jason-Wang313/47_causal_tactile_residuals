@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "expected_condition_rows": 352800,
+  "actual_condition_rows": 352800,
+  "represented_trajectory_evaluations": 53936064000,
+  "represented_frame_decisions": 5177862144000,
+  "evals_per_condition_row": 152880,
+  "frames_per_condition_row": 14676480,
+  "figures": [
+    "policy_utility_f1.pdf",
+    "policy_calibration_utility_heatmap.pdf",
+    "calibration_boundary_curve.pdf",
+    "sensor_transfer_utility.pdf",
+    "family_boundary_scores.pdf",
+    "error_tradeoff_scatter.pdf",
+    "phase_material_utility.pdf"
+  ],
+  "tables": [
+    "table_scale.tex",
+    "table_main_performance.tex",
+    "table_calibration_stress.tex",
+    "table_sensor_summary.tex",
+    "table_family_boundary.tex",
+    "table_negative_controls.tex",
+    "table_break_even.tex"
+  ]
+}

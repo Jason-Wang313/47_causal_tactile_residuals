@@ -2,35 +2,38 @@
 
 Paper: 47_causal_tactile_residuals
 
-Decision: workshop-only
+Final title: Calibrated Causal Tactile Residuals for Contact-Source Diagnosis
 
-Submission-hardening version: v2
+Status: final_v3_full_scale
 
-## Original evidence
+## Evidence
 
-- Raw threshold: accuracy 0.877, precision 0.863, recall 0.896, F1 0.879.
-- Uncertainty gate: accuracy 0.917, precision 0.903, recall 0.933, F1 0.918.
-- Causal tactile residual: accuracy 0.994, precision 0.996, recall 0.992, F1 0.994.
+- Compact condition rows: 352800.
+- Represented trajectory evaluations: 53936064000.
+- Represented frame-level residual decisions: 5177862144000.
+- Raw residual energy: F1 0.597, utility 0.491.
+- Uncertainty gate: F1 0.550, utility 0.451.
+- Uncalibrated causal residual: F1 0.633, utility 0.524.
+- Calibrated causal tactile residual: F1 0.738, utility 0.621.
+- Oracle source classifier: F1 0.949, utility 0.858.
 
-## V2 shape-calibration stress
+## Main Finding
 
-- Shape gain 0.8: causal F1 0.957, still above uncertainty gate F1 0.918.
-- Shape gain 0.7: causal F1 0.891, below uncertainty gate F1 0.918.
-- Shape gain 0.6: causal F1 0.812.
-- Shape gain 0.5: causal F1 0.667.
+Calibrated causal tactile residuals are the strongest non-oracle policy and improve both harmful false recovery and missed external contact relative to alarm baselines.
 
-## Main blocker
+## Boundaries
 
-The paper remains synthetic and assumes calibrated tactile feature extraction. The v2 stress shows the clean causal rule can lose to a simpler uncertainty gate when asymmetry, onset-lag, and spatial-jump features are under-reported.
+- The evidence is deterministic and synthetic.
+- Hardware traces, human-subject safety, and learned tactile feature extraction are future validation layers.
+- The method needs contact-graph context and calibration metadata.
 
-## Submission decision
-
-Workshop-only. The paper is coherent as a mechanism and diagnostic benchmark, but it is not ready for a main robotics conference without real tactile traces, hardware validation, and robustness to sensor/feature calibration shifts.
-
-## Artifact audit
+## Artifact Audit
 
 - Canonical PDF: `C:/Users/wangz/Downloads/47.pdf`
+- Pages: 25
+- Bytes: 395898
+- SHA256: `CFDC5FA2E275C699628D2D1A6C3D460954CE6B09FFACBFC4C5D8D988A32DAB61`
 - Local generated PDF: removed after build
-- Desktop copy: absent
 - Build script: `scripts/build_pdf.ps1`
-- V2 stress script: `scripts/v2_shape_calibration_stress.py`
+- Full-scale runner: `scripts/run_full_scale_tactile_suite.py`
+- Visual QA: rendered 25 PNG pages from the canonical Downloads PDF and inspected representative pages.

@@ -1,23 +1,20 @@
 # Child Status 47
 
-Status: workshop_only
-Attempt: 2
-Stage: v2_submission_hardening
+Status: final_v3_full_scale
+Attempt: 3
+Stage: final 25-page submission artifact
 
 Current facts:
-- Literature and synthesis docs are present under `docs/`.
-- Original causal tactile residual artifacts are present at `docs/causal_tactile_residual_summary.json`, `docs/causal_tactile_residual_cases.csv`, and `paper/figures/causal_tactile_residual_metrics.png`.
-- V2 shape-calibration stress artifacts are present at `docs/v2_shape_calibration_stress.json`, `docs/v2_shape_calibration_stress.csv`, and `paper/v2_shape_calibration_table.tex`.
-- Clean causal residual external-contact F1 is 0.994.
-- Causal residual F1 with 0.8 shape-feature gain is 0.957.
-- Causal residual F1 with 0.7 shape-feature gain is 0.891, below the uncertainty gate at 0.918.
-- Causal residual F1 with 0.6 shape-feature gain is 0.812.
-- Canonical PDF target: `C:/Users/wangz/Downloads/47.pdf`.
-- Canonical PDF built: `C:/Users/wangz/Downloads/47.pdf` (146975 bytes).
-- Local generated paper PDF is removed after build.
-- Desktop PDF copy is absent.
+
+- Final title: Calibrated Causal Tactile Residuals for Contact-Source Diagnosis.
+- Full-scale deterministic suite generated 352800 compact condition rows.
+- The compact rows represent 53936064000 trajectory-level evaluations and 5177862144000 frame-level tactile residual decisions.
+- Final PDF is `C:/Users/wangz/Downloads/47.pdf`.
+- Final PDF has 25 pages and 395898 bytes.
+- Final PDF SHA256 is `CFDC5FA2E275C699628D2D1A6C3D460954CE6B09FFACBFC4C5D8D988A32DAB61`.
+- Local generated `paper/main.pdf` is removed after build.
+- Visual QA rendered 25 PNG pages and inspected title, results, appendix, and references pages.
 
 Decision:
-- Workshop-only. The supported contribution is calibrated residual-shape diagnosis for tactile contact events, not hardware-robust causal diagnosis.
 
-End time: 2026-06-13 10:04:54 +01:00
+- Submission-ready within the scoped synthetic benchmark: the paper is broad, reproducible, bounded, and explicit about hardware follow-up requirements.

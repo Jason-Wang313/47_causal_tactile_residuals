@@ -2,7 +2,7 @@
 
 This set is intentionally pessimistic: each paper is treated as if it could already absorb part of the proposed mechanism unless its assumptions clearly differ.
 
-1. **Tactile sensing for dexterous in-hand manipulation in robotics—A review** (2011, Sensors and Actuators A: Physical) - https://doi.org/10.1016/j.sna.2011.02.038
+1. **Tactile sensing for dexterous in-hand manipulation in robotics-A review** (2011, Sensors and Actuators A: Physical) - https://doi.org/10.1016/j.sna.2011.02.038
 2. **Finger contact sensing and the application in dexterous hand manipulation** (2015, Autonomous Robots) - https://doi.org/10.1007/s10514-015-9425-4
 3. **Precise In-Hand Manipulation of Soft Objects using Soft Fingertips with Tactile Sensing and Active Deformation** (2020, 2020 3rd IEEE International Conference on Soft Robotics (RoboSoft)) - https://doi.org/10.1109/robosoft48309.2020.9115997
 4. **A Novel Contact State Estimation Method for Robot Manipulation Skill Learning via Environment Dynamics and Constraints Modeling** (2022, IEEE Transactions on Automation Science and Engineering) - https://doi.org/10.1109/tase.2021.3139096
@@ -21,7 +21,7 @@ This set is intentionally pessimistic: each paper is treated as if it could alre
 17. **Tactile sensor based varying contact point manipulation strategy for dexterous robot hand manipulating unknown objects** (2012, 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems) - https://doi.org/10.1109/iros.2012.6385465
 18. **Slip Detection of Robot Gripper with Flexible Tactile Sensor** (2014, Journal of the Korean Society for Precision Engineering) - https://doi.org/10.7736/kspe.2014.31.2.157
 19. **Pre-sliding detection in robot hand grasping based on slip-tactile sensor** (2015, 2015 IEEE International Conference on Robotics and Biomimetics (ROBIO)) - https://doi.org/10.1109/robio.2015.7419732
-20. **Tactile Sensors for Friction Estimation and Incipient Slip Detection—Toward Dexterous Robotic Manipulation: A Review** (2018, IEEE Sensors Journal) - https://doi.org/10.1109/jsen.2018.2868340
+20. **Tactile Sensors for Friction Estimation and Incipient Slip Detection-Toward Dexterous Robotic Manipulation: A Review** (2018, IEEE Sensors Journal) - https://doi.org/10.1109/jsen.2018.2868340
 21. **Tactile-Based Slip Detection Towards Robot Grasping** (2023, Lecture Notes in Computer Science) - https://doi.org/10.1007/978-981-99-6495-6_9
 22. **Design of a 3-D Tactile Sensing Array for Incipient Slip Detection in Robotic Dexterous Manipulation** (2024, IEEE Transactions on Instrumentation and Measurement) - https://doi.org/10.1109/tim.2024.3436064
 23. **Visual-Tactile Based Manipulation Control for Complex Robot Manipulation Process via Geometric and Contact State Modeling** (2024, 2024 International Conference on Advanced Robotics and Mechatronics (ICARM)) - https://doi.org/10.1109/icarm62033.2024.10715919
@@ -58,7 +58,7 @@ This set is intentionally pessimistic: each paper is treated as if it could alre
 54. **Model-free in-hand manipulation based on commanded virtual contact points** (2019, 2019 24th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA)) - https://doi.org/10.1109/etfa.2019.8869291
 55. **Multi-point Interaction Force Estimation for Robot Manipulators with Flexible Joints Using Joint Torque Sensors** (2019, Lecture Notes in Computer Science) - https://doi.org/10.1007/978-3-030-27535-8_45
 56. **Robust Learning of Tactile Force Estimation through Robot Interaction** (2019, 2019 International Conference on Robotics and Automation (ICRA)) - https://doi.org/10.1109/icra.2019.8793502
-57. **Sliding–Rolling Contact and In-Hand Manipulation** (2019, ) - https://doi.org/10.1142/q0249
+57. **Sliding-Rolling Contact and In-Hand Manipulation** (2019, ) - https://doi.org/10.1142/q0249
 58. **Tactile-based Blind Grasping: Trajectory Tracking and Disturbance Rejection for In-Hand Manipulation of Unknown Objects** (2019, 2019 American Control Conference (ACC)) - https://doi.org/10.23919/acc.2019.8814714
 59. **A Novel Foot Contact Probability Estimator for Biped Robot State Estimation** (2020, 2020 IEEE International Conference on Mechatronics and Automation (ICMA)) - https://doi.org/10.1109/icma49215.2020.9233715
 60. **Contact-aided invariant extended Kalman filtering for robot state estimation** (2020, The International Journal of Robotics Research) - https://doi.org/10.1177/0278364919894385
@@ -72,11 +72,11 @@ This set is intentionally pessimistic: each paper is treated as if it could alre
 68. **Dual-Arm In-Hand Manipulation with Parallel Grippers Using Tactile Feedback** (2021, 2021 20th International Conference on Advanced Robotics (ICAR)) - https://doi.org/10.1109/icar53236.2021.9659348
 69. **In-hand manipulation by a robot hand equipped with friction-variable surface and vision-based tactile sensor** (2021, The Proceedings of JSME annual Conference on Robotics and Mechatronics (Robomec)) - https://doi.org/10.1299/jsmermd.2021.1p1-j01
 70. **Liquid Metal-Based Wearable Tactile Sensor for Both Temperature and Contact Force Sensing** (2021, IEEE Sensors Journal) - https://doi.org/10.1109/jsen.2020.3015949
-71. **A Wearable Tactile Sensor Array for Large Area Remote Vibration Sensing in the Hand** (2022, Springer Series on Touch and Haptic Systems) - https://doi.org/10.1007/978-3-030-90839-3_5
-72. **An online human–robot collaborative grinding state recognition approach based on contact dynamics and LSTM** (2022, Frontiers in Neurorobotics) - https://doi.org/10.3389/fnbot.2022.971205
+71. **A Wearable Tactile Sensor Array for Large Area Remote Vibration Sensing in the Hand** (2022, Springer Series on Touch and Haptic Systems) - https://doi.org/10.1007/978-3-030-90839-3_5
+72. **An online human-robot collaborative grinding state recognition approach based on contact dynamics and LSTM** (2022, Frontiers in Neurorobotics) - https://doi.org/10.3389/fnbot.2022.971205
 73. **Estimation System of Disturbance Force and Torque for Underwater Robot Based on Artificial Lateral Line** (2022, Applied Sciences) - https://doi.org/10.3390/app12063060
 74. **Graphical visualization of contact forces and hand movements during in-hand manipulation** (2022, 2022 IEEE 27th International Conference on Emerging Technologies and Factory Automation (ETFA)) - https://doi.org/10.1109/etfa52439.2022.9921664
-75. **Kirigami Design of Flexible and Conformal Tactile Sensor on Sphere‐shaped Surface for Contact Force Sensing** (2022, Advanced Materials Technologies) - https://doi.org/10.1002/admt.202200993
+75. **Kirigami Design of Flexible and Conformal Tactile Sensor on Sphere-shaped Surface for Contact Force Sensing** (2022, Advanced Materials Technologies) - https://doi.org/10.1002/admt.202200993
 76. **Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand** (2022, 2022 International Conference on Robotics and Automation (ICRA)) - https://doi.org/10.1109/icra46639.2022.9812093
 77. **Learning a State Estimator for Tactile In-Hand Manipulation** (2022, 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)) - https://doi.org/10.1109/iros47612.2022.9981730
 78. **Precise Torque-output Estimation of a Reaction-force-sensing Series Elastic Actuator for Human-robot Interaction** (2022, IFAC-PapersOnLine) - https://doi.org/10.1016/j.ifacol.2022.10.549
@@ -98,7 +98,7 @@ This set is intentionally pessimistic: each paper is treated as if it could alre
 94. **Learning Time-Optimal and Speed-Adjustable Tactile In-Hand Manipulation** (2024, 2024 IEEE-RAS 23rd International Conference on Humanoid Robots (Humanoids)) - https://doi.org/10.1109/humanoids58906.2024.10769596
 95. **Learning a Shape-Conditioned Agent for Purely Tactile In-Hand Manipulation of Various Objects** (2024, 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)) - https://doi.org/10.1109/iros58592.2024.10802864
 96. **TacFR-Gripper: A Reconfigurable Fin-Ray-Based Gripper with Tactile Skin for In-Hand Manipulation** (2024, Actuators) - https://doi.org/10.3390/act13120521
-97. **Walking State Estimation for Biped Robot Using Foot Contact Information** (2024, Lecture Notes in Networks and Systems) - https://doi.org/10.1007/978-3-031-44851-5_40
-98. **Acute Loss of Tactile Input Leads to General Compensatory Changes in Eye–Hand Coordination during Object Manipulation** (2025, eneuro) - https://doi.org/10.1523/eneuro.0487-23.2025
+97. **Walking State Estimation for Biped Robot Using Foot Contact Information** (2024, Lecture Notes in Networks and Systems) - https://doi.org/10.1007/978-3-031-44851-5_40
+98. **Acute Loss of Tactile Input Leads to General Compensatory Changes in Eye-Hand Coordination during Object Manipulation** (2025, eneuro) - https://doi.org/10.1523/eneuro.0487-23.2025
 99. **Adaptive Contact-Rich Manipulation Through Few-Shot Imitation Learning With Force-Torque Feedback and Pre-Trained Object Representations** (2025, IEEE Robotics and Automation Letters) - https://doi.org/10.1109/lra.2024.3497713
 100. **Development of a Vacuum Suction Microcup Array Featuring Visionbased Tactile Sensing for Robotic Manipulation - Characterization of a Tri-Axial Force Distribution Sensor -** (2025, 2025 23rd International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)) - https://doi.org/10.1109/transducers61432.2025.11111340

@@ -1,0 +1,172 @@
+{
+  "paper": 47,
+  "title": "Calibrated Causal Tactile Residuals for Contact-Source Diagnosis",
+  "condition_rows": 352800,
+  "represented_trajectory_evaluations": 53936064000,
+  "represented_frame_decisions": 5177862144000,
+  "policy_summary": [
+    {
+      "policy": "raw_energy_threshold",
+      "accuracy": "0.625305",
+      "balanced_accuracy": "0.625305",
+      "precision": "0.645881",
+      "recall": "0.554783",
+      "specificity": "0.695828",
+      "f1": "0.596876",
+      "utility": "0.491366",
+      "harmful_false_recovery": "0.152086",
+      "missed_external_contact": "0.222608",
+      "tactile_burden": "0.062863",
+      "decision_latency": "0.125405",
+      "decision_margin": "0.099522",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.366475"
+    },
+    {
+      "policy": "uncertainty_gate",
+      "accuracy": "0.605218",
+      "balanced_accuracy": "0.605218",
+      "precision": "0.639531",
+      "recall": "0.482260",
+      "specificity": "0.728177",
+      "f1": "0.549871",
+      "utility": "0.450707",
+      "harmful_false_recovery": "0.135912",
+      "missed_external_contact": "0.258870",
+      "tactile_burden": "0.082863",
+      "decision_latency": "0.135405",
+      "decision_margin": "0.095281",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.407134"
+    },
+    {
+      "policy": "temporal_persistence_gate",
+      "accuracy": "0.594317",
+      "balanced_accuracy": "0.594317",
+      "precision": "0.622413",
+      "recall": "0.479560",
+      "specificity": "0.709074",
+      "f1": "0.541727",
+      "utility": "0.433288",
+      "harmful_false_recovery": "0.145463",
+      "missed_external_contact": "0.260220",
+      "tactile_burden": "0.102863",
+      "decision_latency": "0.145405",
+      "decision_margin": "0.084087",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.424553"
+    },
+    {
+      "policy": "residual_shape_only",
+      "accuracy": "0.655197",
+      "balanced_accuracy": "0.655197",
+      "precision": "0.747675",
+      "recall": "0.468507",
+      "specificity": "0.841888",
+      "f1": "0.576050",
+      "utility": "0.485844",
+      "harmful_false_recovery": "0.079056",
+      "missed_external_contact": "0.265747",
+      "tactile_burden": "0.122863",
+      "decision_latency": "0.155405",
+      "decision_margin": "0.135574",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.371997"
+    },
+    {
+      "policy": "uncalibrated_causal_residual",
+      "accuracy": "0.680852",
+      "balanced_accuracy": "0.680852",
+      "precision": "0.744635",
+      "recall": "0.550489",
+      "specificity": "0.811215",
+      "f1": "0.633010",
+      "utility": "0.524256",
+      "harmful_false_recovery": "0.094392",
+      "missed_external_contact": "0.224756",
+      "tactile_burden": "0.142863",
+      "decision_latency": "0.165405",
+      "decision_margin": "0.118210",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.333585"
+    },
+    {
+      "policy": "calibrated_causal_tactile_residual",
+      "accuracy": "0.759252",
+      "balanced_accuracy": "0.759252",
+      "precision": "0.809674",
+      "recall": "0.677841",
+      "specificity": "0.840663",
+      "f1": "0.737916",
+      "utility": "0.620843",
+      "harmful_false_recovery": "0.079668",
+      "missed_external_contact": "0.161079",
+      "tactile_burden": "0.182863",
+      "decision_latency": "0.175405",
+      "decision_margin": "0.151078",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.236998"
+    },
+    {
+      "policy": "oracle_source_classifier",
+      "accuracy": "0.948488",
+      "balanced_accuracy": "0.948488",
+      "precision": "0.947303",
+      "recall": "0.949813",
+      "specificity": "0.947163",
+      "f1": "0.948556",
+      "utility": "0.857841",
+      "harmful_false_recovery": "0.026419",
+      "missed_external_contact": "0.025094",
+      "tactile_burden": "0.222863",
+      "decision_latency": "0.155405",
+      "decision_margin": "0.448488",
+      "calibration_quality": "0.558418",
+      "oracle_regret": "0.000000"
+    }
+  ],
+  "break_even_summary": [
+    {
+      "calibration": "ideal",
+      "f1_margin": "0.211872",
+      "utility_margin": "0.191833",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "mild_shape_attenuation",
+      "f1_margin": "0.196390",
+      "utility_margin": "0.176934",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "severe_shape_attenuation",
+      "f1_margin": "0.157601",
+      "utility_margin": "0.141041",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "asymmetry_bias",
+      "f1_margin": "0.220140",
+      "utility_margin": "0.198847",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "onset_latency_skew",
+      "f1_margin": "0.203316",
+      "utility_margin": "0.183134",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "spatial_blur",
+      "f1_margin": "0.159067",
+      "utility_margin": "0.145771",
+      "beats_gate": "yes"
+    },
+    {
+      "calibration": "cross_axis_coupling",
+      "f1_margin": "0.163887",
+      "utility_margin": "0.153389",
+      "beats_gate": "yes"
+    }
+  ]
+}

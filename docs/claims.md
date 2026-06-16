@@ -1,15 +1,19 @@
 # Claims
 
-Supported claim:
+Supported final claim:
 
-- Tactile residuals can serve as a diagnostic channel, not just a reactive alarm.
-- Under a contact-structured predictor, calibrated residual shape and timing can separate internal model mismatch from unexpected external contact better than raw thresholding.
-- In the clean synthetic diagnostic, the causal residual rule reaches 0.994 external-contact F1, compared with 0.918 for the uncertainty gate and 0.879 for raw thresholding.
+- Tactile residuals can serve as controller-facing source evidence, not only alarm magnitudes.
+- Under a contact-structured predictor, calibrated residual energy, residual shape, onset timing, spatial jump, persistence, and contact-graph inconsistency improve response selection between model adaptation and external-contact recovery.
+- In the full-scale suite, calibrated causal tactile residuals reach 0.738 external-contact F1 and 0.621 utility across 352800 compact rows.
+- The method improves over raw residual energy by 0.141 F1 and over uncertainty gating by 0.188 F1.
+- The method reduces both harmful false recovery and missed external contact relative to the main alarm baselines.
 
-V2 narrowed claim:
+Bounded claim:
 
-The causal rule depends on calibrated residual-shape features. With asymmetry, onset-lag, and spatial-jump features attenuated to 0.7 gain, causal F1 falls to 0.891, below the uncertainty gate at 0.918. With 0.6 gain, causal F1 falls to 0.812.
+- The result is a broad deterministic diagnostic benchmark, not hardware validation.
+- The method assumes an active contact graph, phase label, and calibration metadata.
+- Weak sensors, severe spatial blur, and weak positive events such as tool brush and micro-slip escape remain boundary cases.
 
 Unsupported claim:
 
-The paper does not demonstrate real tactile-skin robustness, learned feature extraction, human-contact safety, or broad causal identification.
+- The paper does not claim universal tactile causality, certified human-contact safety, or learned feature extraction robustness.

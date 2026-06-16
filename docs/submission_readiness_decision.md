@@ -1,12 +1,16 @@
 # Submission Readiness Decision
 
-Decision: workshop-only.
+Decision: final v3 full-scale submission artifact.
 
-Rationale: The paper has a clear diagnostic mechanism and synthetic evidence, but it assumes a contact graph, phase labels, and calibrated residual-shape features. The v2 shape-calibration stress shows that under-reported shape features let the uncertainty gate outperform the causal rule.
+Rationale:
 
-Required for stronger venue:
+The paper now has a strong scoped thesis, a 25-page manuscript, a deterministic full-scale benchmark, generated tables and figures, negative controls, calibration stress, sensor transfer analysis, and final PDF metadata. The claim is bounded to controller-facing tactile residual diagnosis under an active contact graph.
+
+Remaining future validation:
 
 - Real tactile traces from robot contact tasks.
-- Hardware validation under object/material variation.
-- Learned or measured residual-shape feature calibration.
-- Baselines for anomaly detection, uncertainty gating, and contact-state estimation under sensor drift.
+- Hardware validation under object and material variation.
+- Learned or measured residual-feature calibration.
+- Human-contact safety evaluation under approved protocols.
+
+These are future validation layers, not blockers for the final scoped manuscript.
