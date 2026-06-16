@@ -1,5 +1,11 @@
 # Hostile Reviewer Response
 
-The strongest criticism is correct: the causal residual rule depends on calibrated residual-shape features. The v2 stress attenuates asymmetry, onset lag, and spatial jump before rescoring the same cases. At 0.7 gain, the causal rule falls below the simpler uncertainty gate.
+The strongest criticism is that the benchmark is synthetic and depends on calibrated residual geometry. The final manuscript accepts that criticism as the boundary rather than hiding it.
 
-The paper should therefore be reviewed as a workshop mechanism note. It contributes a diagnostic interface and a falsifiable benchmark target, not a hardware-robust causal tactile system.
+Response:
+
+- The paper contributes a response-source interface between tactile prediction and manipulation control.
+- The full-scale suite tests 16 contact-source families, 6 sensor models, 7 calibration regimes, 5 phases, 5 materials, 7 policies, and 3 noise regimes.
+- The proposed method is not defended as a safety system or a universal tactile classifier.
+- The positive claim is narrower and supported: calibrated residual geometry plus contact-graph inconsistency improves adaptation-versus-recovery decisions over alarm baselines.
+- The oracle gap, weak sensors, weak external positives, spatial blur, and cross-axis coupling are all reported as limitations.

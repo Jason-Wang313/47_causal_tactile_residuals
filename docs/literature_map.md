@@ -8,7 +8,7 @@
 
 ## Tactile (1121)
 
-- 2011 Tactile sensing for dexterous in-hand manipulation in robotics—A review
+- 2011 Tactile sensing for dexterous in-hand manipulation in robotics-A review
 - 2020 Precise In-Hand Manipulation of Soft Objects using Soft Fingertips with Tactile Sensing and Active Deformation
 - 2023 In-Hand Manipulation of Unknown Objects with Tactile Sensing for Insertion
 - 2024 Exploring Deep Object Content through In-hand Tactile Vibration Sensing with Shaking Manipulation
@@ -40,7 +40,7 @@
 - 2012 Research on a detection and recognition method of tactile-slip sensation used to control the Elderly-assistant &amp;amp; Walking-assistant Robot
 - 2014 Slip Detection of Robot Gripper with Flexible Tactile Sensor
 - 2015 Pre-sliding detection in robot hand grasping based on slip-tactile sensor
-- 2018 Tactile Sensors for Friction Estimation and Incipient Slip Detection—Toward Dexterous Robotic Manipulation: A Review
+- 2018 Tactile Sensors for Friction Estimation and Incipient Slip Detection-Toward Dexterous Robotic Manipulation: A Review
 - 2023 Tactile-Based Slip Detection Towards Robot Grasping
 - 2024 Design of a 3-D Tactile Sensing Array for Incipient Slip Detection in Robotic Dexterous Manipulation
 - 2025 Robust Slip Detection Using Magnetic Tactile Sensors During Dynamic Robotic Manipulation via Stray Magnetic Fields Compensation
@@ -79,7 +79,7 @@
 - 1994 Determination of the Optimum Cost-Residual Error Trade-off in Robot Calibration
 - 2003 A residual?based error estimator for BEM?discretizations of contact problems
 - 2004 Flexible robot manipulator path design to reduce the endpoint residual vibration under torque constraints
-- 2007 Residual<i>a posteriori</i> error estimators for contact problems in elasticity
+- 2007 Residual<i>a posteriori</i> error estimators for contact problems in elasticity
 - 2008 A adaptive grey fuzzy prediction controller design based on the improving residual error model
 - 2008 A self-adjusting grey fuzzy prediction controller design based on residual error model
 
@@ -130,4 +130,3 @@
 - 2023 Bi-Touch: Bimanual Tactile Manipulation With Sim-to-Real Deep Reinforcement Learning
 - 2024 In-Hand Object Classification and Pose Estimation With Sim-to-Real Tactile Transfer for Robotic Manipulation
 - None Bi-Touch: Bimanual Tactile Manipulation with Sim-to-Real Deep Reinforcement Learning_supp1-3295991.mp4
-

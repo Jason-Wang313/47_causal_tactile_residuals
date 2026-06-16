@@ -1,27 +1,39 @@
-# Causal Tactile Residuals
+# Calibrated Causal Tactile Residuals
 
 Paper 47 for the robotics 60-paper batch.
 
-Decision: workshop-only.
-
-The v2 shape-calibration stress narrows the claim. The clean causal tactile residual rule reaches 0.994 external-contact F1 on the synthetic diagnostic. When residual-shape features are attenuated to 0.8 gain, causal F1 remains 0.957. At 0.7 gain, causal F1 drops to 0.891, below the uncertainty gate at 0.918. The paper is therefore a mechanism note about calibrated residual-shape features, not a hardware-robust tactile diagnosis result.
+Status: final_v3_full_scale.
 
 Canonical PDF:
 
 - `C:/Users/wangz/Downloads/47.pdf`
+- Pages: 25
+- Bytes: 395898
+- SHA256: `CFDC5FA2E275C699628D2D1A6C3D460954CE6B09FFACBFC4C5D8D988A32DAB61`
+
+Final evidence:
+
+- Full-scale compact rows: 352800.
+- Represented trajectory evaluations: 53936064000.
+- Represented frame-level residual decisions: 5177862144000.
+- Calibrated causal tactile residual F1: 0.738.
+- Calibrated causal tactile residual utility: 0.621.
+- Raw residual energy F1: 0.597.
+- Uncertainty gate F1: 0.550.
+- Oracle source classifier F1: 0.949.
 
 Important files:
 
-- `paper/main.tex`: manuscript source.
-- `docs/causal_tactile_residual_cases.csv`: original synthetic cases.
-- `docs/v2_shape_calibration_stress.json`: v2 calibration stress summary.
-- `docs/v2_shape_calibration_stress.csv`: v2 stress table data.
-- `paper/v2_shape_calibration_table.tex`: manuscript table generated from v2 stress.
-- `docs/final_audit.md`: final hardening audit.
+- `paper/main.tex`: final manuscript source.
+- `scripts/run_full_scale_tactile_suite.py`: deterministic full-scale experiment runner.
+- `scripts/build_pdf.ps1`: canonical PDF builder and hash recorder.
+- `docs/full_scale_execution_plan.md`: pre-edit plan and final outcome.
+- `results/full_scale/`: generated condition rows, summaries, validation JSON, and LaTeX tables.
+- `paper/figures/full_scale/`: generated PDF figures imported by the manuscript.
 
 Rebuild commands:
 
-- `python scripts/v2_shape_calibration_stress.py`
+- `python scripts/run_full_scale_tactile_suite.py`
 - `powershell -ExecutionPolicy Bypass -File scripts/build_pdf.ps1`
 
 The build script copies the generated PDF to `C:/Users/wangz/Downloads/47.pdf` and removes `paper/main.pdf`.

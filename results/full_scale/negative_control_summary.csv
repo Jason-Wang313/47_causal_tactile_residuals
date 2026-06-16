@@ -1,0 +1,8 @@
+policy,internal_accuracy,harmful_false_recovery,utility
+raw_energy_threshold,0.695828,0.304172,0.592966
+uncertainty_gate,0.728177,0.271823,0.620305
+temporal_persistence_gate,0.709074,0.290926,0.596238
+residual_shape_only,0.841888,0.158112,0.726633
+uncalibrated_causal_residual,0.811215,0.188785,0.690093
+calibrated_causal_tactile_residual,0.840663,0.159337,0.711083
+oracle_source_classifier,0.947163,0.052837,0.814156

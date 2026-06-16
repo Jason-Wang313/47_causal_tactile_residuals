@@ -1,0 +1,516 @@
+{
+  "contact_families": [
+    {
+      "name": "compliance_drift",
+      "label": "Compliance drift",
+      "source": "internal",
+      "energy": 0.62,
+      "asymmetry": 0.18,
+      "onset_lag": 0.22,
+      "persistence": 0.66,
+      "spatial_jump": 0.16,
+      "graph_violation": 0.14,
+      "severity": 0.55,
+      "ambiguity": 0.22
+    },
+    {
+      "name": "inertia_mismatch",
+      "label": "Inertia mismatch",
+      "source": "internal",
+      "energy": 0.68,
+      "asymmetry": 0.22,
+      "onset_lag": 0.2,
+      "persistence": 0.61,
+      "spatial_jump": 0.18,
+      "graph_violation": 0.18,
+      "severity": 0.62,
+      "ambiguity": 0.26
+    },
+    {
+      "name": "friction_drift",
+      "label": "Friction drift",
+      "source": "internal",
+      "energy": 0.58,
+      "asymmetry": 0.2,
+      "onset_lag": 0.18,
+      "persistence": 0.59,
+      "spatial_jump": 0.24,
+      "graph_violation": 0.16,
+      "severity": 0.48,
+      "ambiguity": 0.24
+    },
+    {
+      "name": "soft_object_deformation",
+      "label": "Soft-object deformation",
+      "source": "internal",
+      "energy": 0.54,
+      "asymmetry": 0.16,
+      "onset_lag": 0.17,
+      "persistence": 0.69,
+      "spatial_jump": 0.2,
+      "graph_violation": 0.12,
+      "severity": 0.5,
+      "ambiguity": 0.21
+    },
+    {
+      "name": "texture_vibration_alias",
+      "label": "Texture vibration alias",
+      "source": "internal",
+      "energy": 0.48,
+      "asymmetry": 0.33,
+      "onset_lag": 0.12,
+      "persistence": 0.44,
+      "spatial_jump": 0.14,
+      "graph_violation": 0.24,
+      "severity": 0.42,
+      "ambiguity": 0.32
+    },
+    {
+      "name": "contact_patch_dilation",
+      "label": "Contact-patch dilation",
+      "source": "internal",
+      "energy": 0.57,
+      "asymmetry": 0.24,
+      "onset_lag": 0.26,
+      "persistence": 0.64,
+      "spatial_jump": 0.28,
+      "graph_violation": 0.2,
+      "severity": 0.52,
+      "ambiguity": 0.28
+    },
+    {
+      "name": "thermal_skin_gain_drift",
+      "label": "Thermal skin-gain drift",
+      "source": "internal",
+      "energy": 0.5,
+      "asymmetry": 0.14,
+      "onset_lag": 0.3,
+      "persistence": 0.67,
+      "spatial_jump": 0.16,
+      "graph_violation": 0.11,
+      "severity": 0.46,
+      "ambiguity": 0.19
+    },
+    {
+      "name": "actuator_force_ripple",
+      "label": "Actuator force ripple",
+      "source": "internal",
+      "energy": 0.52,
+      "asymmetry": 0.36,
+      "onset_lag": 0.1,
+      "persistence": 0.34,
+      "spatial_jump": 0.12,
+      "graph_violation": 0.22,
+      "severity": 0.39,
+      "ambiguity": 0.35
+    },
+    {
+      "name": "unexpected_side_contact",
+      "label": "Unexpected side contact",
+      "source": "external",
+      "energy": 0.76,
+      "asymmetry": 0.61,
+      "onset_lag": 0.45,
+      "persistence": 0.59,
+      "spatial_jump": 0.68,
+      "graph_violation": 0.78,
+      "severity": 0.78,
+      "ambiguity": 0.12
+    },
+    {
+      "name": "human_bump_insertion",
+      "label": "Human bump insertion",
+      "source": "external",
+      "energy": 0.82,
+      "asymmetry": 0.67,
+      "onset_lag": 0.5,
+      "persistence": 0.62,
+      "spatial_jump": 0.72,
+      "graph_violation": 0.84,
+      "severity": 0.92,
+      "ambiguity": 0.1
+    },
+    {
+      "name": "fixture_edge_scrape",
+      "label": "Fixture edge scrape",
+      "source": "external",
+      "energy": 0.7,
+      "asymmetry": 0.56,
+      "onset_lag": 0.42,
+      "persistence": 0.66,
+      "spatial_jump": 0.61,
+      "graph_violation": 0.73,
+      "severity": 0.72,
+      "ambiguity": 0.15
+    },
+    {
+      "name": "insertion_jam_unseen_lip",
+      "label": "Insertion jam unseen lip",
+      "source": "external",
+      "energy": 0.78,
+      "asymmetry": 0.42,
+      "onset_lag": 0.55,
+      "persistence": 0.72,
+      "spatial_jump": 0.46,
+      "graph_violation": 0.7,
+      "severity": 0.83,
+      "ambiguity": 0.22
+    },
+    {
+      "name": "cable_cloth_snag",
+      "label": "Cable or cloth snag",
+      "source": "external",
+      "energy": 0.65,
+      "asymmetry": 0.49,
+      "onset_lag": 0.48,
+      "persistence": 0.75,
+      "spatial_jump": 0.55,
+      "graph_violation": 0.68,
+      "severity": 0.7,
+      "ambiguity": 0.2
+    },
+    {
+      "name": "neighbor_object_collision",
+      "label": "Neighbor-object collision",
+      "source": "external",
+      "energy": 0.74,
+      "asymmetry": 0.58,
+      "onset_lag": 0.38,
+      "persistence": 0.53,
+      "spatial_jump": 0.64,
+      "graph_violation": 0.76,
+      "severity": 0.74,
+      "ambiguity": 0.14
+    },
+    {
+      "name": "tool_brush",
+      "label": "Tool brush",
+      "source": "external",
+      "energy": 0.59,
+      "asymmetry": 0.45,
+      "onset_lag": 0.31,
+      "persistence": 0.42,
+      "spatial_jump": 0.52,
+      "graph_violation": 0.56,
+      "severity": 0.45,
+      "ambiguity": 0.31
+    },
+    {
+      "name": "micro_slip_escape",
+      "label": "Micro-slip escape",
+      "source": "external",
+      "energy": 0.62,
+      "asymmetry": 0.37,
+      "onset_lag": 0.28,
+      "persistence": 0.7,
+      "spatial_jump": 0.43,
+      "graph_violation": 0.62,
+      "severity": 0.58,
+      "ambiguity": 0.3
+    }
+  ],
+  "sensors": [
+    {
+      "name": "optical_gel_array",
+      "label": "Optical gel array",
+      "energy_quality": 1.0,
+      "shape_quality": 0.96,
+      "timing_quality": 0.9,
+      "spatial_quality": 0.98,
+      "burden": 0.22,
+      "latency": 0.08
+    },
+    {
+      "name": "digit_like_fingertip",
+      "label": "DIGIT-like fingertip",
+      "energy_quality": 0.94,
+      "shape_quality": 0.88,
+      "timing_quality": 0.86,
+      "spatial_quality": 0.9,
+      "burden": 0.18,
+      "latency": 0.07
+    },
+    {
+      "name": "magnetic_skin",
+      "label": "Magnetic skin",
+      "energy_quality": 0.92,
+      "shape_quality": 0.8,
+      "timing_quality": 0.78,
+      "spatial_quality": 0.72,
+      "burden": 0.16,
+      "latency": 0.06
+    },
+    {
+      "name": "capacitive_taxel_array",
+      "label": "Capacitive taxel array",
+      "energy_quality": 0.88,
+      "shape_quality": 0.72,
+      "timing_quality": 0.82,
+      "spatial_quality": 0.76,
+      "burden": 0.12,
+      "latency": 0.05
+    },
+    {
+      "name": "barometric_soft_fingertip",
+      "label": "Barometric soft fingertip",
+      "energy_quality": 0.82,
+      "shape_quality": 0.64,
+      "timing_quality": 0.74,
+      "spatial_quality": 0.6,
+      "burden": 0.1,
+      "latency": 0.04
+    },
+    {
+      "name": "wrist_force_torque_proxy",
+      "label": "Wrist force-torque proxy",
+      "energy_quality": 0.76,
+      "shape_quality": 0.38,
+      "timing_quality": 0.52,
+      "spatial_quality": 0.34,
+      "burden": 0.06,
+      "latency": 0.03
+    }
+  ],
+  "calibrations": [
+    {
+      "name": "ideal",
+      "label": "Ideal",
+      "shape_gain": 1.0,
+      "timing_gain": 1.0,
+      "spatial_gain": 1.0,
+      "energy_bias": 0.0,
+      "asymmetry_bias": 0.0,
+      "latency_shift": 0.0,
+      "cross_axis": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "mild_shape_attenuation",
+      "label": "Mild shape attenuation",
+      "shape_gain": 0.85,
+      "timing_gain": 0.92,
+      "spatial_gain": 0.88,
+      "energy_bias": 0.0,
+      "asymmetry_bias": 0.0,
+      "latency_shift": 0.02,
+      "cross_axis": 0.02,
+      "penalty": 0.05
+    },
+    {
+      "name": "severe_shape_attenuation",
+      "label": "Severe shape attenuation",
+      "shape_gain": 0.65,
+      "timing_gain": 0.82,
+      "spatial_gain": 0.68,
+      "energy_bias": 0.0,
+      "asymmetry_bias": 0.0,
+      "latency_shift": 0.05,
+      "cross_axis": 0.04,
+      "penalty": 0.18
+    },
+    {
+      "name": "asymmetry_bias",
+      "label": "Asymmetry bias",
+      "shape_gain": 0.9,
+      "timing_gain": 0.94,
+      "spatial_gain": 0.91,
+      "energy_bias": 0.0,
+      "asymmetry_bias": 0.1,
+      "latency_shift": 0.01,
+      "cross_axis": 0.04,
+      "penalty": 0.09
+    },
+    {
+      "name": "onset_latency_skew",
+      "label": "Onset latency skew",
+      "shape_gain": 0.92,
+      "timing_gain": 0.7,
+      "spatial_gain": 0.9,
+      "energy_bias": 0.0,
+      "asymmetry_bias": 0.0,
+      "latency_shift": 0.12,
+      "cross_axis": 0.03,
+      "penalty": 0.11
+    },
+    {
+      "name": "spatial_blur",
+      "label": "Spatial blur",
+      "shape_gain": 0.84,
+      "timing_gain": 0.9,
+      "spatial_gain": 0.62,
+      "energy_bias": 0.01,
+      "asymmetry_bias": 0.0,
+      "latency_shift": 0.03,
+      "cross_axis": 0.06,
+      "penalty": 0.14
+    },
+    {
+      "name": "cross_axis_coupling",
+      "label": "Cross-axis coupling",
+      "shape_gain": 0.78,
+      "timing_gain": 0.86,
+      "spatial_gain": 0.76,
+      "energy_bias": 0.02,
+      "asymmetry_bias": 0.05,
+      "latency_shift": 0.04,
+      "cross_axis": 0.18,
+      "penalty": 0.17
+    }
+  ],
+  "phases": [
+    {
+      "name": "approach",
+      "label": "Approach",
+      "difficulty": 0.86,
+      "latency_pressure": 0.3,
+      "energy_shift": -0.03
+    },
+    {
+      "name": "insertion",
+      "label": "Insertion",
+      "difficulty": 0.72,
+      "latency_pressure": 0.75,
+      "energy_shift": 0.04
+    },
+    {
+      "name": "sliding",
+      "label": "Sliding",
+      "difficulty": 0.76,
+      "latency_pressure": 0.6,
+      "energy_shift": 0.02
+    },
+    {
+      "name": "handoff",
+      "label": "Handoff",
+      "difficulty": 0.7,
+      "latency_pressure": 0.85,
+      "energy_shift": 0.01
+    },
+    {
+      "name": "regrasp",
+      "label": "Regrasp",
+      "difficulty": 0.8,
+      "latency_pressure": 0.5,
+      "energy_shift": 0.0
+    }
+  ],
+  "materials": [
+    {
+      "name": "rigid_metal",
+      "label": "Rigid metal",
+      "feature_scale": 1.02,
+      "energy_shift": 0.03,
+      "persistence_shift": -0.02,
+      "noise": 0.03
+    },
+    {
+      "name": "smooth_plastic",
+      "label": "Smooth plastic",
+      "feature_scale": 0.96,
+      "energy_shift": 0.0,
+      "persistence_shift": 0.0,
+      "noise": 0.04
+    },
+    {
+      "name": "soft_foam",
+      "label": "Soft foam",
+      "feature_scale": 0.82,
+      "energy_shift": -0.04,
+      "persistence_shift": 0.06,
+      "noise": 0.08
+    },
+    {
+      "name": "cloth_rubber",
+      "label": "Cloth/rubber",
+      "feature_scale": 0.78,
+      "energy_shift": -0.02,
+      "persistence_shift": 0.08,
+      "noise": 0.1
+    },
+    {
+      "name": "low_friction_transparent",
+      "label": "Low-friction transparent",
+      "feature_scale": 0.72,
+      "energy_shift": -0.05,
+      "persistence_shift": -0.03,
+      "noise": 0.13
+    }
+  ],
+  "noise_regimes": [
+    {
+      "name": "nominal",
+      "label": "Nominal",
+      "feature_noise": 0.04,
+      "dropout": 0.0,
+      "energy_bias": 0.0,
+      "shape_jitter": 0.03
+    },
+    {
+      "name": "vibratory_clutter",
+      "label": "Vibratory clutter",
+      "feature_noise": 0.12,
+      "dropout": 0.03,
+      "energy_bias": 0.04,
+      "shape_jitter": 0.1
+    },
+    {
+      "name": "dropout_quantization",
+      "label": "Dropout and quantization",
+      "feature_noise": 0.16,
+      "dropout": 0.08,
+      "energy_bias": -0.02,
+      "shape_jitter": 0.16
+    }
+  ],
+  "policies": [
+    {
+      "name": "raw_energy_threshold",
+      "label": "Raw energy threshold",
+      "class": "baseline",
+      "burden": 0.02,
+      "latency": 0.03
+    },
+    {
+      "name": "uncertainty_gate",
+      "label": "Uncertainty gate",
+      "class": "baseline",
+      "burden": 0.04,
+      "latency": 0.04
+    },
+    {
+      "name": "temporal_persistence_gate",
+      "label": "Temporal persistence gate",
+      "class": "baseline",
+      "burden": 0.06,
+      "latency": 0.05
+    },
+    {
+      "name": "residual_shape_only",
+      "label": "Residual-shape only",
+      "class": "ablation",
+      "burden": 0.08,
+      "latency": 0.06
+    },
+    {
+      "name": "uncalibrated_causal_residual",
+      "label": "Uncalibrated causal residual",
+      "class": "ablation",
+      "burden": 0.1,
+      "latency": 0.07
+    },
+    {
+      "name": "calibrated_causal_tactile_residual",
+      "label": "Calibrated causal tactile residual",
+      "class": "proposed",
+      "burden": 0.14,
+      "latency": 0.08
+    },
+    {
+      "name": "oracle_source_classifier",
+      "label": "Oracle source classifier",
+      "class": "oracle",
+      "burden": 0.18,
+      "latency": 0.06
+    }
+  ]
+}

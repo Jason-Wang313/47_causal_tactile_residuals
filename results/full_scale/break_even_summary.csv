@@ -1,0 +1,8 @@
+calibration,f1_margin,utility_margin,beats_gate
+ideal,0.211872,0.191833,yes
+mild_shape_attenuation,0.196390,0.176934,yes
+severe_shape_attenuation,0.157601,0.141041,yes
+asymmetry_bias,0.220140,0.198847,yes
+onset_latency_skew,0.203316,0.183134,yes
+spatial_blur,0.159067,0.145771,yes
+cross_axis_coupling,0.163887,0.153389,yes
