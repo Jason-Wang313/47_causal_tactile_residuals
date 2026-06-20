@@ -4,7 +4,7 @@ Decision: final v3 full-scale submission artifact.
 
 Rationale:
 
-The paper now has a strong scoped thesis, a 25-page manuscript, a deterministic full-scale benchmark, generated tables and figures, negative controls, calibration stress, sensor transfer analysis, and final PDF metadata. The claim is bounded to controller-facing tactile residual diagnosis under an active contact graph.
+The paper now has a strong scoped thesis, a 25-page manuscript, a deterministic full-scale benchmark, generated tables and figures, negative controls, calibration stress, sensor transfer analysis, final PDF metadata, and VLA-style visible green citation boxes and red internal-reference boxes. The claim is bounded to controller-facing tactile residual diagnosis under an active contact graph.
 
 Remaining future validation:
 

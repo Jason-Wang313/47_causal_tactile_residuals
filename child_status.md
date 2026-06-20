@@ -11,9 +11,11 @@ Current facts:
 - The compact rows represent 53936064000 trajectory-level evaluations and 5177862144000 frame-level tactile residual decisions.
 - Final PDF is `C:/Users/wangz/Downloads/47.pdf`.
 - Final PDF has 25 pages and 395898 bytes.
-- Final PDF SHA256 is `CFDC5FA2E275C699628D2D1A6C3D460954CE6B09FFACBFC4C5D8D988A32DAB61`.
+- Final PDF SHA256 is `0CC14476F0B7707BF023E56647368FC648791275818223E70F66BC38F1057BE5`.
 - Local generated `paper/main.pdf` is removed after build.
-- Visual QA rendered 25 PNG pages and inspected title, results, appendix, and references pages.
+- Visual QA rendered affected highlight pages 2, 5, 6, 7, 8, and 10 at 160 dpi.
+- Verified 15 green citation boxes, 10 red internal-reference boxes, and 25 visible `(0, 0, 1)` link borders.
+- VLA-style red and green boxes are thin, aligned, readable, and do not collide with text, figures, tables, or captions.
 
 Decision:
 
