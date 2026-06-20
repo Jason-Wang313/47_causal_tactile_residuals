@@ -32,8 +32,8 @@ Calibrated causal tactile residuals are the strongest non-oracle policy and impr
 - Canonical PDF: `C:/Users/wangz/Downloads/47.pdf`
 - Pages: 25
 - Bytes: 395898
-- SHA256: `CFDC5FA2E275C699628D2D1A6C3D460954CE6B09FFACBFC4C5D8D988A32DAB61`
+- SHA256: `0CC14476F0B7707BF023E56647368FC648791275818223E70F66BC38F1057BE5`
 - Local generated PDF: removed after build
 - Build script: `scripts/build_pdf.ps1`
 - Full-scale runner: `scripts/run_full_scale_tactile_suite.py`
-- Visual QA: rendered 25 PNG pages from the canonical Downloads PDF and inspected representative pages.
+- Visual QA: rendered affected highlight pages 2, 5, 6, 7, 8, and 10 at 160 dpi from the canonical Downloads PDF; verified 15 green citation boxes, 10 red internal-reference boxes, and 25 visible `(0, 0, 1)` borders with no layout collisions.
